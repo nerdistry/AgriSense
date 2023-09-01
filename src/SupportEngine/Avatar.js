@@ -20,7 +20,7 @@ const Avatar = props => {
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         onClick = {() => props.onClick()}
-        style={{ ...styles.chatWithMeButton, ...{ border:hovered ? '1px solid #f9f0ff' : '4px solid #7a39e0'}}}
+        style={{ ...styles.chatWithMeButton, ...{ border:hovered ? '1px solid #d9ead3' : '4px solid #00a300'}}}
       />
     </div>
   );

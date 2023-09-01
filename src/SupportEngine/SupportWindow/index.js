@@ -13,7 +13,7 @@ const SupportWindow = props => {
             ...{opacity: props.visible ? '1' : '0'}
         }}
         >
-
+<EmailForm />
        </div>
     )
 }

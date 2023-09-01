@@ -1461,7 +1461,7 @@
   /* CUSTOM FONTS*/
   
   :root {
-    --color-1: #7a39e0;
+    --color-1: #00a300;
   }
   body {
     font-size: 16px;
@@ -1475,14 +1475,14 @@
     line-height: 75px;
     font-family: Heebo;
     font-weight: 500;
-    color: #48347c;
+    color: #38761d;
   }
   h2 {
     font-size: 45px;
     line-height: 60px;
     font-family: Heebo;
     font-weight: 500;
-    color: #48347c;
+    color: #38761d;
   }
   h3 {
     font-size: 24px;
@@ -1495,7 +1495,7 @@
     line-height: 30px;
     font-family: Heebo;
     font-weight: 500;
-    color: #48347c;
+    color: #38761d;
   }
   h5 {
     font-size: 18px;
@@ -1626,8 +1626,8 @@
   }
   
   .dorik-nav-ynq9x73v .dorik-nav--btn-a9h97xdg {
-    color: #7a39e0;
-    border: 2px solid #7a39e0;
+    color: #00a300;
+    border: 2px solid #00a300;
   }
   
   /* DROPDOWN */
@@ -1857,7 +1857,7 @@
     border-radius: 5px 5px 5px 5px;
     border-width: 0px;
   
-    background-color: #7a39e0;
+    background-color: #00a300;
     font-size: 18px;
     color: #ffffff;
     line-height: 18px;
@@ -1875,7 +1875,7 @@
   .dorik-section-oqqguct5 {
     padding-top: 1px;
     padding-bottom: 0px;
-    background-color: #48347c;
+    background-color: #38761d;
   }
   
   /*Row*/
@@ -1935,7 +1935,7 @@
     border-width: 0px;
   
     font-size: 16px;
-    color: #7a39e0;
+    color: #00a300;
     line-height: 18px;
     flex-direction: row-reverse;
   }
@@ -1998,7 +1998,7 @@
     border-width: 0px;
   
     font-size: 16px;
-    color: #7a39e0;
+    color: #00a300;
     line-height: 18px;
     flex-direction: row-reverse;
   }
@@ -2017,7 +2017,7 @@
   .dorik-section-f5kyae5m {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #48347c;
+    background-color: #38761d;
   }
   
   /*Row*/
@@ -2503,7 +2503,7 @@
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #7a39e0;
+    color: #00a300;
     margin-bottom: 10px;
     margin-top: 0px;
   }
@@ -2555,7 +2555,7 @@
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #48347c;
+    background-color: #38761d;
     border-radius: 10px 10px 10px 10px;
     padding-top: 80px;
     padding-left: 15%;
@@ -2672,7 +2672,7 @@
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #7a39e0;
+    color: #00a300;
     margin-bottom: 10px;
     margin-top: 0px;
   }
@@ -2762,7 +2762,7 @@
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #7a39e0;
+    color: #00a300;
     margin-bottom: 10px;
     margin-top: 0px;
   }
@@ -2811,7 +2811,7 @@
     border-style: solid;
   
     border-right-width: 1px;
-    border-right-color: #f0efff;
+    border-right-color: #d9ead3;
   }
   @media screen and (max-width: 1023px) {
     .dorik-column-emdcrx37 {
@@ -2823,7 +2823,7 @@
   /*Icon & Text*/
   .dorik-iconText-a8022ec7 {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
   }
   .dorik-iconText-a8022ec7 {
@@ -2835,7 +2835,7 @@
   }
   .dorik-iconText-a8022ec7 .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-a8022ec7 > span {
     padding-left: 18px;
@@ -2843,7 +2843,7 @@
   /*Icon & Text*/
   .dorik-iconText-jcto15xy {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
     margin-top: 30px;
   }
@@ -2856,7 +2856,7 @@
   }
   .dorik-iconText-jcto15xy .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-jcto15xy > span {
     padding-left: 18px;
@@ -2864,7 +2864,7 @@
   /*Icon & Text*/
   .dorik-iconText-0cdkv77o {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
     margin-top: 30px;
   }
@@ -2877,7 +2877,7 @@
   }
   .dorik-iconText-0cdkv77o .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-0cdkv77o > span {
     padding-left: 18px;
@@ -2890,7 +2890,7 @@
     border-style: solid;
   
     border-right-width: 1px;
-    border-right-color: #f0efff;
+    border-right-color: #d9ead3;
   }
   @media screen and (max-width: 1023px) {
     .dorik-column-znf8u09n {
@@ -2902,7 +2902,7 @@
   /*Icon & Text*/
   .dorik-iconText-o6ljwp85 {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
   }
   .dorik-iconText-o6ljwp85 {
@@ -2914,7 +2914,7 @@
   }
   .dorik-iconText-o6ljwp85 .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-o6ljwp85 > span {
     padding-left: 18px;
@@ -2922,7 +2922,7 @@
   /*Icon & Text*/
   .dorik-iconText-540dm093 {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
     margin-top: 30px;
   }
@@ -2935,7 +2935,7 @@
   }
   .dorik-iconText-540dm093 .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-540dm093 > span {
     padding-left: 18px;
@@ -2943,7 +2943,7 @@
   /*Icon & Text*/
   .dorik-iconText-5475gq2j {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
     margin-top: 30px;
   }
@@ -2956,7 +2956,7 @@
   }
   .dorik-iconText-5475gq2j .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-5475gq2j > span {
     padding-left: 18px;
@@ -2974,7 +2974,7 @@
   /*Icon & Text*/
   .dorik-iconText-un1jvxj3 {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
   }
   .dorik-iconText-un1jvxj3 {
@@ -2986,7 +2986,7 @@
   }
   .dorik-iconText-un1jvxj3 .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-un1jvxj3 > span {
     padding-left: 18px;
@@ -2994,7 +2994,7 @@
   /*Icon & Text*/
   .dorik-iconText-d45fm6vv {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
     margin-top: 30px;
   }
@@ -3007,7 +3007,7 @@
   }
   .dorik-iconText-d45fm6vv .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-d45fm6vv > span {
     padding-left: 18px;
@@ -3015,7 +3015,7 @@
   /*Icon & Text*/
   .dorik-iconText-mtpesa6c {
     font-size: 18px;
-    color: #48347c;
+    color: #38761d;
     align-items: flex-start;
     margin-top: 30px;
   }
@@ -3028,7 +3028,7 @@
   }
   .dorik-iconText-mtpesa6c .icon {
     font-size: 28px;
-    color: #7a39e0;
+    color: #00a300;
   }
   .dorik-iconText-mtpesa6c > span {
     padding-left: 18px;
@@ -3074,7 +3074,7 @@
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #7a39e0;
+    color: #00a300;
     margin-bottom: 10px;
     margin-top: 0px;
   }
@@ -3123,7 +3123,7 @@
   
   /*Column*/
   .dorik-column-0addolgu {
-    background-color: #f0efff;
+    background-color: #d9ead3;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
   
@@ -3139,7 +3139,7 @@
   /*Title*/
   .dorik-heading-xiulpxkr {
     color: #ffffff;
-    background-color: #7a39e0;
+    background-color: #00a300;
     padding-top: 15px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
@@ -3158,7 +3158,7 @@
   .dorik-text-duo8of1a {
     text-align: center;
     font-size: 14px;
-    background-color: #7a39e0;
+    background-color: #00a300;
     color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -3168,7 +3168,7 @@
   
   /*Column*/
   .dorik-column-23ocsyy4 {
-    background-color: #f0efff;
+    background-color: #d9ead3;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
   
@@ -3184,7 +3184,7 @@
   /*Title*/
   .dorik-heading-45pj9dzd {
     color: #ffffff;
-    background-color: #7a39e0;
+    background-color: #00a300;
     padding-top: 15px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
@@ -3203,7 +3203,7 @@
   .dorik-text-tmae0t72 {
     text-align: center;
     font-size: 14px;
-    background-color: #7a39e0;
+    background-color: #00a300;
     color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -3213,7 +3213,7 @@
   
   /*Column*/
   .dorik-column-s36ccu9w {
-    background-color: #f0efff;
+    background-color: #d9ead3;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
   
@@ -3229,7 +3229,7 @@
   /*Title*/
   .dorik-heading-zl7r7hf8 {
     color: #ffffff;
-    background-color: #7a39e0;
+    background-color: #00a300;
     padding-top: 15px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
@@ -3248,7 +3248,7 @@
   .dorik-text-si3cop0h {
     text-align: center;
     font-size: 14px;
-    background-color: #7a39e0;
+    background-color: #00a300;
     color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -3258,7 +3258,7 @@
   
   /*Column*/
   .dorik-column-vzlfmbgb {
-    background-color: #f0efff;
+    background-color: #d9ead3;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
   
@@ -3274,7 +3274,7 @@
   /*Title*/
   .dorik-heading-s4l7fteh {
     color: #ffffff;
-    background-color: #7a39e0;
+    background-color: #00a300;
     padding-top: 15px;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
@@ -3293,7 +3293,7 @@
   .dorik-text-viwj0zx9 {
     text-align: center;
     font-size: 14px;
-    background-color: #7a39e0;
+    background-color: #00a300;
     color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -3305,7 +3305,7 @@
   .dorik-section-31mjr6w7 {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #48347c;
+    background-color: #38761d;
     background-image: url("https://cdn.dorik.com/5e373b6c43a72a001f56dbf6/images/bg-shape_lu9x14ja.svg");
     background-size: contain;
     background-position: center;
@@ -3385,7 +3385,7 @@
   
     background-color: #ffffff;
     font-size: 18px;
-    color: #7a39e0;
+    color: #00a300;
     line-height: 18px;
     box-shadow: 0px 5px 40px 0px rgba(122, 57, 224, 0.3);
     margin-top: 30px;
