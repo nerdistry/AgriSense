@@ -51,8 +51,7 @@
                 "Rice",
                 "Cotton",
                 "Kales",
-                "Coffee",
-                "Other (Specify)"
+                "Coffee"
             ),
             "What crops are currently in high demand in your local market?" => array(
                 "Maize (Corn)",
@@ -63,8 +62,7 @@
                 "Onions",
                 "Avocadoes",
                 "Beans",
-                "Fruit",
-                "Other (Specify)"
+                "Fruit"
             ),
             "Does your soil retain moisture well, or does it tend to dry out quickly?" => array(
                 "Poor (Dries quickly)",
