@@ -6,11 +6,11 @@ Welcome to the AgriSense GitHub repository! AgriSense is an online platform that
 
 The repository is structured as follows:
 
-backend/: This directory contains the backend code of the AgriSense platform, including the API endpoints, MySQL database, and business logic implemented in Python.
+backend: This directory contains the backend code of the AgriSense platform, including the API endpoints, MySQL database, and business logic implemented in Python.
 
-frontend/: Here, you will find the frontend code for the AgriSense platform, implemented using JavaScript and React. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
+frontend: Here, you will find the frontend code for the AgriSense platform, implemented using JavaScript and React. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
 
-models/: This directory contains the trained Generative AI models, gpt-3.5, used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems.
+model: This directory contains the trained Generative AI models, gpt-3.5, used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems.
 
 ### Purpose
 
