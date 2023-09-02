@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import EmailForm from "./EmailForm";    
 
 const SupportWindow = props => {
+
+    //state
     return (
         <div
         className = 'transition-5'
