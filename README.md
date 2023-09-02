@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# AgriSense
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the AgriSense GitHub repository! AgriSense is an online platform that provides data-driven decisions about crop planting and rotation, taking into account seasonal demand, weather conditions, and soil quality.  This repository contains the source code and development history of the AgriSense platform.
 
-## Available Scripts
+## Structure
 
-In the project directory, you can run:
+The repository is structured as follows:
 
-### `yarn start`
+backend/: This directory contains the backend code of the AgriSense platform, including the API endpoints, MySQL database, and business logic implemented in Python.
+frontend/: Here, you will find the frontend code for the AgriSense platform, implemented using JavaScript and React. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
+models/: This directory contains the trained Generative AI models used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Purpose
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The purpose of this repository is to provide a collaborative space for the development and improvement of the AgriSense platform. By making the repository publicly accessible, we aim to foster community engagement by allowing developers, contributors, and users to explore the codebase, report issues, and suggest enhancements.
 
-### `yarn test`
+### How Generative AI Models are Solving the Problem
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+AgriSense leverages the openAI model to enhance the platform's functionality, particularly in providing crop suggestions based on answered prompts. The model has been fine-tuned to process and interpret the user's prompts. These models utilize cutting-edge techniques in natural language processing to generate accurate and meaningful responses to user propmts.
 
-### `yarn build`
+By incorporating Generative AI models into ATRONS, we enable users to answer prompts on their farm's condition, such as the altitude, annual rainfall, temperature, and soil type, and receive relevant crop suggestions. This significantly optimizes the farmer's profits, as users can obtain concise insights about the crops they can grow to meet seasonal demand. It opens up new possibilities for interactive and dynamic learning, making ATRONS a powerful platform for knowledge sharing and acquisition.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
