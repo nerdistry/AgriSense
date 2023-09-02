@@ -13,7 +13,7 @@ Here, you will find the frontend code for the AgriSense platform, implemented us
 
 ###Model
 
-This directory contains the trained Generative AI models used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems.
+This directory contains the trained Generative AI models used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI and ML libraries, and they play a crucial role in solving specific problems.
 
 ### Purpose
 
@@ -21,9 +21,9 @@ The purpose of this repository is to provide a collaborative space for the devel
 
 ### How Generative AI Models are Solving the Problem
 
-AgriSense leverages the openAI model to enhance the platform's functionality, particularly in providing crop suggestions based on answered prompts. The model has been fine-tuned to process and interpret the user's prompts. These models utilize cutting-edge techniques in natural language processing to generate accurate and meaningful responses to user propmts.
+AgriSense leverages the openAI model to enhance the platform's functionality, particularly in providing crop suggestions based on answered prompts. The model has been fine-tuned to process and interpret the user's prompts. These models utilize cutting-edge techniques in natural language processing to generate accurate and meaningful responses to user requests.
 
-By incorporating Generative AI models into ATRONS, we enable users to answer prompts on their farm's condition, such as the altitude, annual rainfall, temperature, and soil type, and receive relevant crop suggestions. This significantly optimizes the farmer's profits, as users can obtain concise insights about the crops they can grow to meet seasonal demand. It opens up new possibilities for interactive and dynamic learning, making ATRONS a powerful platform for knowledge sharing and acquisition.
+By incorporating Generative AI models into AgriSense, we enable users to answer prompts on their farm's condition, such as the altitude, annual rainfall, temperature, and soil type, and receive relevant crop suggestions. This significantly optimizes the farmer's profits, as users can obtain concise insights about the crops they can grow to meet seasonal demand. It opens up new possibilities for interactive crop planning, making AgriSense a powerful platform for precision farming.
 
 
 
