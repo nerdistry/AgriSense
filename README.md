@@ -10,7 +10,9 @@ This directory contains the backend code of the AgriSense platform, including th
 
 ###Frontend
 Here, you will find the frontend code for the AgriSense platform, implemented using JavaScript and React. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
+
 ###Model
+
 This directory contains the trained Generative AI models used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems.
 
 ### Purpose
