@@ -879,15 +879,15 @@ input[type="button"]:disabled,
 /* Header */
 
 body.landing #header {
-  background-color: transparent;
+  background-color: #ffffff;
   left: 0;
   position: absolute;
   top: 0;
 }
 
 #header {
-  background-color: #a4bc92;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #127C56;
   cursor: default;
   height: 4.75em;
   line-height: 4.75em;
@@ -896,7 +896,7 @@ body.landing #header {
 }
 
 #header h1 {
-  color: #ffffff;
+  color: #127C56;
   height: inherit;
   left: 2.5em;
   line-height: inherit;
@@ -928,7 +928,7 @@ body.landing #header {
 #header nav > ul > li {
   border-radius: 4px;
   display: inline-block;
-  margin-left: 1.5em;
+  margin-left: 4.5em;
   padding-left: 0;
 }
 
@@ -938,13 +938,13 @@ body.landing #header {
   -o-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #c7e9b0;
+  color: #127C56;
   display: inline-block;
   text-decoration: none;
 }
 
 #header nav > ul > li a:hover {
-  color: #ffffff;
+  color: #1EE494;
 }
 
 #header nav > ul > li:first-child {
@@ -1019,13 +1019,8 @@ body.landing #header {
 }
 
 .wrapper.style1 {
-  background-color: #3ba666;
-  -moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-  -webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-  -o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-  -ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-  background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
-  color: #ffffff;
+
+  color: #127C56;
 }
 
 .wrapper.style1 header {
@@ -1033,11 +1028,11 @@ body.landing #header {
 }
 
 .wrapper.style1 h2 {
-  color: #ffffff;
+  color: #127C56;
 }
 
 .wrapper.style1 .icon.big {
-  border-color: #ffffff;
+  border-color: #127C56;
   margin-bottom: 0.5em;
 }
 
@@ -1055,145 +1050,23 @@ body.landing #header {
   margin: 0 0 2em 0;
 }
 
-/* CSS styles for the slider */
-.background {
-  background-image: url("images/overlay.png"), url("../images/banner.jpeg");
-  background-size: cover;
-	background-attachment: fixed;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	overflow-y: scroll;
-	display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
 
-}
 
-.question-slider {
-
-  width: 80%;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-
-}
-
-.question {
-  display: none;
-  background-size: cover;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-}
-
-.question.active {
-  display: block;
-}
-
-.question h3 {
-  color: #333;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-input[type="radio"] {
-  margin-right: 5px;
-}
-
-.next {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.next:hover {
-  background-color: #0056b3;
-}
-
-.button-container {
-    display: flex;
-    justify-content: space-between; /* Add space between the buttons */
-    margin-top: 20px;
-}
-
-.button-container button {
-	width: 48%;
-}
-
-/* Add CSS for the first Next button */
-.first-next-button {
-	width: 100%;
-	text-align: center;
-}
-
-.submit-container {
-	text-align: center; /* Center-align the button within its container */
-	margin-top: 20px; /* Add spacing between questions and the submit button */
-}
-
-.submit {
-	background-color: #28a745;
-	color: #fff;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.submit:hover {
-	background-color: #1e7f33;
-}
 /* Footer */
 
 #footer {
-  background: #a4bc92;
-  color: #888;
-  padding: 6em 0em 4em;
+  background: #1EE494;
+  color: #1EE494;
+  padding: 2em 0em 2em;
 }
 
 #footer h2,
 #footer h3,
 #footer h4 {
-  color: #ffffff;
+  color: #1EE494;
 }
 
-#footer a {
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  color: #888;
-}
 
-#footer a:active,
-#footer a:hover {
-  color: #ffffff;
-}
-
-#footer .icons .rounded {
-  border-color: #888;
-  font-size: 1.5em;
-}
-
-#footer .icons .rounded:active,
-#footer .icons .rounded:hover {
-  border-color: #ffffff;
-}
 
 #footer .copyright {
   font-size: 0.9em;
