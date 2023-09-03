@@ -29,7 +29,7 @@
 
 	<body>
 	   <?php
-            require 'menu.php';
+            require '../Header/header.php';
         ?>
 	    <section id="banner">
 			<div class="container">

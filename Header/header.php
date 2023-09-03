@@ -5,10 +5,10 @@ if (isset($_SESSION['logged_in']) and $_SESSION['logged_in'] == 1) {
 	if ($_SESSION['Category'] != 1) {
 		$link = "Login/profile.php";
 	} else {
-		$link = "profileView.php";
+		$link = "Profile/profileView.php";
 	}
 } else {
-	$loginProfile = "Login";
+	$loginProfile = "";
 	$link = "index.php";
 	$logo = "glyphicon glyphicon-log-in";
 }
@@ -22,7 +22,7 @@ if (isset($_SESSION['logged_in']) and $_SESSION['logged_in'] == 1) {
 			<li><a href="/Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 28px;"></span></a></li>
 			<li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><span class="glyphicon glyphicon-apple" style="font-size: 28px;"></span></a></li>
 			<li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><span class="glyphicon glyphicon-inbox" style="font-size: 28px;"></span></a></li>
-			<li><a href="<?= $link; ?>"><span class="<?php echo $logo; ?>" style="font-size: 28px;"></span><?php echo " " . $loginProfile; ?></a></li>
+			<li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><span class="<?php echo $logo; ?>" style="font-size: 28px;"></span></a></li>
 		</ul>
 </header>
 

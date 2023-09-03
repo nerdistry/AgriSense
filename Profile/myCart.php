@@ -76,7 +76,7 @@
 							<strong><h2 class="title" style="color:black; "><?php echo $row1['product'].'';?></h2></strong>
 							<a href="review.php?pid=<?php echo $row1['pid'] ;?>" > <img class="image fit" src="<?php echo $picDestination;?>" alt=""  /></a>
 
-							<div style="align: left">
+							<div >
 							<blockquote><?php echo "Type : ".$row1['pcat'].'';?><br><?php echo "Price : ".$row1['price'].' /-';?><br></blockquote>
 
 						</section>
