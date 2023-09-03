@@ -12,6 +12,10 @@ frontend: Here, you will find the frontend code for the AgriSense platform, impl
 
 model: This directory contains the trained Generative AI models, gpt-3.5, used by AgriSense to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems.
 
+
+
+
+
 ### Purpose
 
 The purpose of this repository is to provide a collaborative space for the development and improvement of the AgriSense platform. By making the repository publicly accessible, we aim to foster community engagement by allowing developers, contributors, and users to explore the codebase, report issues, and suggest enhancements.
