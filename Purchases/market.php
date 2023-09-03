@@ -12,7 +12,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>AgroCulture</title>
+		<title>AgriSense</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -22,38 +22,49 @@
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="login.css"/>
 		<link rel="stylesheet" type="text/css" href="indexFooter.css">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-layers.min.js"></script>
+		<script src="../js/init.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+		<link rel="stylesheet" href="../css/style.css" />
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<?php require 'menu.php'; ?>
 	<body>
 
+	<header id="header" style="background-color: #fff; color: white; text-align: center; padding: 10px 0;   border-bottom: 1px solid black;
+;">
+    <h1><a href="..index.php">AgriSense</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="../Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><i class="fas fa-shopping-cart" style="font-size: 28px;"></i></a></li>
+            <li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><i class="fas fa-apple-alt" style="font-size: 28px;"></i></a></li>
+            <li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><i class="fas fa-inbox" style="font-size: 28px;"></i></a></li>
+            <li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><i class="fas fa-user" style="font-size: 28px;"></i></a></li>
+        </ul>
+    </nav>
+</header>
 
 
 		<!-- One -->
 			<section id="one" class="wrapper style1 align-center" style="height: 600px">
 				<div class="container">
-					<h2>Welcome to Digital Market</h2>
+					<br>
+					<h2>Welcome to the market, your one stop Farm Shop!</h2>
 					<br /><br />
 					<div class="row 200%">
 						<section class="4u 12u$(small)">
-							<a href="profileView.php"><img src="profileDefault.png"></a>
+							<a href="../Profile/profileView.php"><img src="../profileDefault.png"></a>
 							<p>Your Profile</p>
 						</section>
 						<section class="4u 12u$(small)">
-							<a href="productMenu.php?n=1" name="catSearch"><img src="search.png"></a>
+							<a href="../Product/productMenu.php?n=1" name="catSearch"><img src="../search.png"></a>
 							<p>Search according to your needs</p>
 						</section>
 						<section class="4u$ 12u$(small)">
-							<a href="productmenu.php?n=0"><img src="product.png"></a>
+							<a href="../Product/productmenu.php?n=0"><img src="../product.png"></a>
 							<p>Our products</p>
 						</section>
 					</div>
@@ -124,4 +135,8 @@
 
 
 	</body>
+	<!-- Footer -->
+<footer class="footer">
+	<h3 style="font-family: 'Times New Roman', cursive; text-align: center;">AgriSense &copy; 2023</h3>
+</footer>
 </html>

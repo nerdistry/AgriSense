@@ -4,6 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap\js\bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
     <link rel="stylesheet" href="../css/style.css" />
 
     <title>Grow</title>
@@ -103,10 +110,21 @@
             resize: vertical;
         }
     </style>
-  
+
 </head>
 
 <body>
+<header id="header" style="background-color: #fff; color: white; text-align: center; padding: 10px 0;">
+    <h1><a href="..index.php">AgriSense</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="../Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><i class="fas fa-shopping-cart" style="font-size: 28px;"></i></a></li>
+            <li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><i class="fas fa-apple-alt" style="font-size: 28px;"></i></a></li>
+            <li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><i class="fas fa-inbox" style="font-size: 28px;"></i></a></li>
+            <li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><i class="fas fa-user" style="font-size: 28px;"></i></a></li>
+        </ul>
+    </nav>
+</header>
 
 
     <div>
@@ -129,7 +147,7 @@
             <label for="q3">What crops were grown on your land in the previous season?</label> <br>
             <select id="q3" style="width: 50%;" required>
                 <option value="Corn (Maize)">Corn (Maize)</option>
-                <option value="Rice">rice</option>
+                <option value="Rice">Rice</option>
                 <option value="Wheat">Wheat</option>
                 <option value="Potatoes">Potatoes</option>
                 <option value="Tomatoes">Tomatoes</option>
@@ -139,7 +157,7 @@
             <label for="q4">What crops are currently in high demand in your local market?</label> <br>
             <select id="q4" style="width: 50%;" required>
                 <option value="Corn (Maize)">Corn (Maize)</option>
-                <option value="Rice">rice</option>
+                <option value="Rice">Rice</option>
                 <option value="Wheat">Wheat</option>
                 <option value="Potatoes">Potatoes</option>
                 <option value="Tomatoes">Tomatoes</option>

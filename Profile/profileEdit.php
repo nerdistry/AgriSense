@@ -1,35 +1,44 @@
 <?php
-    session_start();
+session_start();
 ?>
 
 <!DOCTYPE HTML>
 
 <html lang="en">
-    <head>
-        <title>Profile: <?php echo $_SESSION['Username']; ?></title>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="bootstrap\js\bootstrap.min.js"></script>
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
 
-    <body class="subpage">
+<head>
+    <title>Profile: <?php echo $_SESSION['Username']; ?></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-        <?php
-            require 'menu.php';
-        ?>
+<body class="subpage">
 
-        <section id="post" class="wrapper bg-img" data-bg="banner2.jpg">
-            <div class="inner">
-                <div class="box">
+    <header id="header">
+        <h1><a href="..index.php">AgriSense</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="../Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 28px;"></span></a></li>
+                <li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><span class="glyphicon glyphicon-apple" style="font-size: 28px;"></span></a></li>
+                <li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><span class="glyphicon glyphicon-inbox" style="font-size: 28px;"></span></a></li>
+                <li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><span class="<?php echo $logo; ?>" style="font-size: 28px;"></span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="post" class="wrapper bg-img" data-bg="banner2.jpg">
+        <div class="inner">
+            <div class="box">
                 <header>
-                    <span class="image left"><img src="<?php echo 'images/profileImages/'.$_SESSION['picName'].'?'.mt_rand(); ?>" class="img-circle" class="img-responsive" height="200px"></span>
+                    <span class="image left"><img src="<?php echo 'images/profileImages/' . $_SESSION['picName'] . '?' . mt_rand(); ?>" class="img-circle" class="img-responsive" height="200px"></span>
                     <br>
-                    <h2><?php echo $_SESSION['Name'];?></h2>
-                    <h4><?php echo $_SESSION['Username'];?></h4>
+                    <h2><?php echo $_SESSION['Name']; ?></h2>
+                    <h4><?php echo $_SESSION['Username']; ?></h4>
                     <br>
                     <form method="post" action="Profile/updatePic.php" enctype="multipart/form-data">
                         <input type="file" name="profilePic" id="profilePic">
@@ -43,21 +52,21 @@
                 <form method="post" action="Profile/updateProfile.php">
                     <div class="row uniform">
                         <div class="8u 12u$(xsmall)">
-                            <input type="text" name="name" id="name" value="<?php echo $_SESSION['Name'];?>" placeholder="Full Name" required />
+                            <input type="text" name="name" id="name" value="<?php echo $_SESSION['Name']; ?>" placeholder="Full Name" required />
                         </div>
                         <div class="4u 12u$(xsmall)">
-                            <input type="text" name="mobile" id="mobile" value="<?php echo $_SESSION['MobileNo'];?>" placeholder="Mobile No" required/>
+                            <input type="text" name="mobile" id="mobile" value="<?php echo $_SESSION['MobileNo']; ?>" placeholder="Mobile No" required />
                         </div>
                         <div class="6u 12u$(xsmall)">
-                            <input type="text" name="uname" id="uname" value="<?php echo $_SESSION['Username'];?>" placeholder="Username" required/>
+                            <input type="text" name="uname" id="uname" value="<?php echo $_SESSION['Username']; ?>" placeholder="Username" required />
                         </div>
                         <div class="6u 12u$(xsmall)">
-                            <input type="email" name="email" id="email" value="<?php echo $_SESSION['Email'];?>" placeholder="Email" required/>
+                            <input type="email" name="email" id="email" value="<?php echo $_SESSION['Email']; ?>" placeholder="Email" required />
                         </div>
                         <div class="6u 12u$(xsmall)">
                             <div class="select-wrapper">
-                              <select name="section" id="section">
-                                    <option value="<?php echo $_SESSION['Section'];?>"><?php echo $_SESSION['Section'];?></option>
+                                <select name="section" id="section">
+                                    <option value="<?php echo $_SESSION['Section']; ?>"><?php echo $_SESSION['Section']; ?></option>
                                     <option value="Band">Band</option>
                                     <option value="Drama">Drama</option>
                                     <option value="Dance">Dance</option>
@@ -67,7 +76,7 @@
                             </div>
                         </div>
                         <div class="6u 12u$(xsmall)">
-                            <input type="text" name="post" id="post" value="<?php echo $_SESSION['Post'];?>" placeholder="Post Name" required/>
+                            <input type="text" name="post" id="post" value="<?php echo $_SESSION['Post']; ?>" placeholder="Post Name" required />
                         </div>
                         <p>
                             <b>Education : </b>
@@ -80,7 +89,7 @@
                             <input type="radio" id="btech" name="edu" value="B.TECH">
                             <label for="btech">B.TECH</label>
                         </div>
-                         <div class="3u 12u$(small)">
+                        <div class="3u 12u$(small)">
                             <input type="radio" id="mtech" name="edu" value="M.TECH">
                             <label for="mtech">M.TECH</label>
                         </div>s
@@ -99,28 +108,29 @@
                             <input type="radio" id="3" name="year" value="3">
                             <label for="3">3<sup>rd</sup> Year</label>
                         </div>
-                         <div class="2u 12u$(small)">
+                        <div class="2u 12u$(small)">
                             <input type="radio" id="4" name="year" value="4">
                             <label for="4">4<sup>th</sup> Year</label>
                         </div>
                         <div class="12u$">
-                        <center>
-                            <input type="submit" class = "button special" value="Update Profile" />
-                        </center>
+                            <center>
+                                <input type="submit" class="button special" value="Update Profile" />
+                            </center>
                         </div>
                     </div>
                 </form>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/jquery.scrollex.min.js"></script>
-            <script src="assets/js/skel.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-    </body>
+</body>
+
 </html>

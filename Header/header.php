@@ -19,11 +19,12 @@ if (isset($_SESSION['logged_in']) and $_SESSION['logged_in'] == 1) {
 	<h1><a href="index.php">AgriSense</a></h1>
 	<nav id="nav">
 		<ul>
-			<li><a href="/Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 28px;"></span></a></li>
-			<li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><span class="glyphicon glyphicon-apple" style="font-size: 28px;"></span></a></li>
+			<li><a href="./Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 28px;"></span></a></li>
+			<li><a href="./Purchases/market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><span class="glyphicon glyphicon-apple" style="font-size: 28px;"></span></a></li>
 			<li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><span class="glyphicon glyphicon-inbox" style="font-size: 28px;"></span></a></li>
 			<li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><span class="<?php echo $logo; ?>" style="font-size: 28px;"></span></a></li>
 		</ul>
+	</nav>
 </header>
 
 </body>

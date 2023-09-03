@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require 'db.php';
+require '../Connection/db.php';
 	$pid = $_GET['pid'];
 ?>
 
@@ -34,7 +34,7 @@
 
 
 				<?php
-					require 'menu.php';
+					// require 'menu.php';
 
 					$sql="SELECT * FROM fproduct WHERE pid = '$pid'";
 					$result = mysqli_query($conn, $sql);

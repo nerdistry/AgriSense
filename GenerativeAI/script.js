@@ -10,7 +10,7 @@ const submitButton = document.querySelector('button[type="submit"]');
 const loadingIndicator = document.getElementById('loading'); // Define loadingIndicator
 
 
-const API_KEY = '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';
+const API_KEY = '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';
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();

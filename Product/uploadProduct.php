@@ -1,6 +1,6 @@
 <?php
  	session_start();
-	require 'db.php';
+	 require '../Connection/db.php';
 
     if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
@@ -40,7 +40,7 @@
 				$picNameNew = $productName.$_SESSION['productPicId'].".".$picActualExt ;
 				$_SESSION['productPicName'] = $picNameNew;
 				$_SESSION['productPicExt'] = $picActualExt;
-				$picDestination = "images/productImages/".$picNameNew;
+				$picDestination = "../images/productImages/".$picNameNew;
 				move_uploaded_file($picTmpName, $picDestination);
 				$id = $_SESSION['id'];
 
@@ -51,7 +51,7 @@
 				{
 
 					$_SESSION['message'] = "Product Image Uploaded successfully !!!";
-					header("Location: market.php");
+					header("Location: ../Purchases/market.php");
 				}
 				else
 				{
@@ -95,29 +95,45 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="bootstrap\js\bootstrap.min.js"></script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="login.css"/>
+		<link rel="stylesheet" href="../Login/login.css"/>
 		<link rel="stylesheet" type="text/css" href="indexFooter.css">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-layers.min.js"></script>
+		<script src="../js/init.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<link rel="stylesheet" href="../css/skel.css" />
+			<link rel="stylesheet" href="../css/style.css" />
+			<link rel="stylesheet" href="../css/style-xlarge.css" />
 		</noscript>
 		<script src="https://cdn.ckeditor.com/4.8.0/full/ckeditor.js"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-		<?php require 'menu.php'; ?>
+
+    <link rel="stylesheet" href="../css/style.css" />
+	</head>
+
+	<body>
+	<header id="header" style="background-color: #fff; color: white; text-align: center; padding: 10px 0;   border-bottom: 1px solid black;
+;">
+    <h1><a href="..index.php">AgriSense</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="../Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><i class="fas fa-shopping-cart" style="font-size: 28px;"></i></a></li>
+            <li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><i class="fas fa-apple-alt" style="font-size: 28px;"></i></a></li>
+            <li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><i class="fas fa-inbox" style="font-size: 28px;"></i></a></li>
+            <li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><i class="fas fa-user" style="font-size: 28px;"></i></a></li>
+        </ul>
+    </nav>
+</header>
+
 
 		<!-- One -->
 
 			<section id="one" class="wrapper style1 align-center">
 				<div class="container">
-					<form method="POST" action="uploadProduct.php" enctype="multipart/form-data">
+					<form method="POST" action="../Product/uploadProduct.php" enctype="multipart/form-data">
 						<h2>Enter the Product Information here..!!</h2>
 						<br>
 				<center>

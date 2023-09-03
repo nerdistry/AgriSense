@@ -18,26 +18,22 @@ if (!isset($_SESSION['logged_in']) or $_SESSION['logged_in'] != 1) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script src="bootstrap\js\bootstrap.min.js"></script>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <!-- <link rel="stylesheet" href="../Login/login.css" /> -->
-    <!-- <script src="../js/jquery.min.js"></script> -->
-    <script src="../js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="../js/init.js"></script>
-    <link rel="stylesheet" href="../css/skel.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap\js\bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
     <link rel="stylesheet" href="../css/style.css" />
+
     <style>
-        body {
-            background-color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-
+     
         .image-circle {
             border: 4px solid #127C56;
             border-radius: 50%;
@@ -89,12 +85,19 @@ if (!isset($_SESSION['logged_in']) or $_SESSION['logged_in'] != 1) {
 
 
 <body>
+<header id="header" style="background-color: #fff; color: white; text-align: center; padding:  0;">
+    <h1><a href="..index.php">AgriSense</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="../Profile/myCart.php" data-toggle="tooltip" data-placement="bottom" title="My Cart"><i class="fas fa-shopping-cart" style="font-size: 28px;"></i></a></li>
+            <li><a href="market.php" data-toggle="tooltip" data-placement="bottom" title="Market"><i class="fas fa-apple-alt" style="font-size: 28px;"></i></a></li>
+            <li><a href="blogView.php" data-toggle="tooltip" data-placement="bottom" title="Farmer's Hub"><i class="fas fa-inbox" style="font-size: 28px;"></i></a></li>
+            <li><a href="<?= $link; ?>" title="<?= $loginProfile; ?>"><i class="fas fa-user" style="font-size: 28px;"></i></a></li>
+        </ul>
+    </nav>
+</header>
 
-    <?php
-    require '../Header/header.php';
-    ?>
-
-    <section id="one" class="wrapper style1 align">
+    <section id="one" class="style1 align">
         <div class="inner">
             <div class="box">
                 <header>
@@ -149,7 +152,7 @@ if (!isset($_SESSION['logged_in']) or $_SESSION['logged_in'] != 1) {
                                 <a href="profileEdit.php" class="btn btn-danger" style="text-decoration: none;">Edit Profile</a>
                             </div>
                             <div class="3u 12u$(xsmall)">
-                                <a href="uploadProduct.php" class="btn btn-danger" style="text-decoration: none;">Upload Product</a>
+                                <a href="../Product/uploadProduct.php" class="btn btn-danger" style="text-decoration: none;">Upload Product</a>
                             </div>
                             <div class="3u 12u$(xsmall)">
                                 <a href="../GenerativeAI/questions.php" class="btn btn-danger" style="text-decoration: none;">GROW!</a>
