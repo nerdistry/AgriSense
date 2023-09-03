@@ -166,7 +166,7 @@
             </select><br><br>
             <label for="q5">Does your soil retain moisture well, or does it tend to dry out quickly?</label> <br>
             <select id="q5" style="width: 50%;" required>
-                <option value="Poor (Dries quickly)">Poor (Dires quickly)</option>
+                <option value="Poor (Dries quickly)">Poor (Dries quickly)</option>
                 <option value="Fair">Fair</option>
                 <option value="Good (retains moisture well)">Good (Retains Moisture Well)</option>
             </select><br><br>
