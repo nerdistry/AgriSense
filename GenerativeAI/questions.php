@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
 
     <title>Grow</title>
     <style>
@@ -13,7 +14,7 @@
             background-color: #f0f0f0;
             margin: 0;
             padding: 0;
-            background-image: url("css/images/overlay.png"), url("/css/images/background.jpeg");
+            background-image: url("../css/images/overlay.png"), url("../css/images/background.jpeg");
             background-blend-mode: overlay, normal;
         }
 
@@ -102,10 +103,12 @@
             resize: vertical;
         }
     </style>
-
+  
 </head>
 
 <body>
+
+
     <div>
         <form id="questions">
             <label for="q1">What is the average temperature range in your area during the growing season?</label> <br>
@@ -126,17 +129,17 @@
             <label for="q3">What crops were grown on your land in the previous season?</label> <br>
             <select id="q3" style="width: 50%;" required>
                 <option value="Corn (Maize)">Corn (Maize)</option>
-                <option value="rice">rice</option>
+                <option value="Rice">rice</option>
                 <option value="Wheat">Wheat</option>
                 <option value="Potatoes">Potatoes</option>
                 <option value="Tomatoes">Tomatoes</option>
-                <option value="onions">Onions</option>
+                <option value="Onions">Onions</option>
                 <option value="Beans">Beans</option>
             </select><br><br>
             <label for="q4">What crops are currently in high demand in your local market?</label> <br>
             <select id="q4" style="width: 50%;" required>
                 <option value="Corn (Maize)">Corn (Maize)</option>
-                <option value="rice">rice</option>
+                <option value="Rice">rice</option>
                 <option value="Wheat">Wheat</option>
                 <option value="Potatoes">Potatoes</option>
                 <option value="Tomatoes">Tomatoes</option>
@@ -146,7 +149,7 @@
             <label for="q5">Does your soil retain moisture well, or does it tend to dry out quickly?</label> <br>
             <select id="q5" style="width: 50%;" required>
                 <option value="Poor (Dries quickly)">Poor (Dires quickly)</option>
-                <option value="fair">Fair</option>
+                <option value="Fair">Fair</option>
                 <option value="Good (retains moisture well)">Good (Retains Moisture Well)</option>
             </select><br><br>
             <label for="q6">What is the altitude of your farming location?</label> <br>

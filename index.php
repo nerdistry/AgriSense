@@ -13,7 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="bootstrap\js\bootstrap.min.js"></script>
 	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="login.css" />
+	<link rel="stylesheet" href="login/login.css" />
 	<script src="js/jquery.min.js"></script>
 	<script src="js/skel.min.js"></script>
 	<script src="js/skel-layers.min.js"></script>

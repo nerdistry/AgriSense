@@ -5,7 +5,7 @@
     $pass = $_POST['pass'];
     $category = dataFilter($_POST['category']);
 
-    require '../db.php';
+    require '../Connection/db.php';
 
 if($category == 1)
 {

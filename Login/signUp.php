@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 }
 
 
-require '../db.php';
+require '../Connection/db.php';
 
 $length = strlen($mobile);
 
